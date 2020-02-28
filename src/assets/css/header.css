@@ -1,0 +1,68 @@
+#header{
+   background: black;
+}
+.home{
+  text-decoration: none;
+  font-weight: bold
+}
+.navbar-brand
+{
+    position: absolute;
+    left:49%;
+    cursor: pointer;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 33px;
+    font-family: 'Amatic SC';
+
+}
+
+.navbar-brand:hover{
+   opacity: 2;
+   color: rgb(172, 40, 40)
+}
+.navbar
+{
+   padding: 1em 0 !important; 
+   background-color: black;
+   text-align: center;
+   
+}
+
+.navbar-toggler
+{
+    border: none !important;
+    outline: none !important;
+}
+
+.navbar-nav{
+   text-align: center;
+}
+.navbar-toggler-icon{
+   color: white;
+   border-color: rgb(255,102,203);
+}
+
+.nav-link{
+   color: white;
+   font-family: 'Amatic SC';
+   font-size: 28px;
+   
+}
+
+.nav-link:hover{
+   opacity: 2;
+   color: rgb(172, 40, 40)
+}
+
+
+@media (min-width: 320px) and (max-width:640px) {
+  .navbar-brand
+  {
+     position: absolute;
+     left:47%;
+     transform: translateX(-50%);
+     top: 15px;
+     color: white;
+  }
+}

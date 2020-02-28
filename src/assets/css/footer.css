@@ -1,0 +1,23 @@
+footer{
+    color: white
+ }
+ #footer{
+    background: black;
+ }
+ 
+ .fab{
+    font-size: 35px;
+    cursor: pointer;
+ }
+ 
+ .fab:hover{
+    color: rgb(184, 150, 144)
+ }
+ 
+ a{
+    text-decoration: none;
+    color: white
+ }
+ a:hover{
+    color: rgb(184, 150, 144)
+ }

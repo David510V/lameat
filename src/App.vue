@@ -1,32 +1,39 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div>
+        <video id="videoBg" poster="../public/img/poster.jpg" autoplay muted loop>
+      <source src="../public/img/steak.mp4" type="video/mp4">
+   </video>
+       <appheader></appheader>
+                <transition 
+                enter-active-class="animated slideInRight delay-0"
+                leave-active-class="animated slideOutLeft delay-0"
+                mode="out-in"
+                >
+                    <router-view></router-view>
+                </transition>
+       <footer>
+           <appfooter></appfooter>
+       </footer>
+            
     </div>
-    <router-view/>
-  </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
-}
+<script>
+import home from './views/Home.vue';
+import header from './views/Header.vue'
+import footer from './views/Footer.vue'
+export default {
+  components:{
+            appheader:header,
+            apphome:home,
+            appfooter:footer
+        },
+   }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+</script>
+<style >
+ @import '../src/assets/css/app.css';
+ @import '../src/assets/css/header.css';
+ @import '../src/assets/css/footer.css';
 </style>

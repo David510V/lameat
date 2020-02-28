@@ -1,0 +1,114 @@
+
+.head{
+    color: rgb(133, 14, 14);
+    font-family: 'Amatic SC';
+    font-weight: 600;
+    font-size: 70px;
+  }
+  .main{
+    height: 500px;
+    
+  }
+  
+  .icon2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: black 0px solid;
+    background: rgb(196, 95, 95);
+    opacity: 80%;
+  }
+  .icontext{
+    color: rgb(233, 73, 73);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Amatic SC';
+    letter-spacing: 4px;
+  }
+  .horiz{
+    border: 2px solid rgb(197, 139, 139);
+  }
+  .text{
+    color: rgb(218, 199, 199);
+    font-weight:bolder;
+    font-size: 30px;
+    font-family: 'Amatic SC';
+    
+  }
+  
+  .jumb{
+    background-color: #D3A1A1
+  }
+  
+  
+  @media (max-width: 767px) {
+    
+      .head{
+        font-size: 35px;
+      }
+      .icon2{
+         height: 50px;
+         width: 50px;
+      }
+      .icontext{
+        font-size: 20px;
+      }
+      .text{
+        font-size: 15px;
+        font-weight:bolder;
+      }
+  }
+  @media (width: 768px) {
+      .head{
+        font-size: 50px;
+      }
+      .icon2{
+         height: 70px;
+         width: 70px;
+      }
+      .icontext{
+        font-size: 35px;
+      }
+      .text{
+        font-size: 25px;
+        font-weight:bolder;
+      }
+  }
+  @media (width: 1024px) {
+      .head{
+        font-size: 50px;
+      }
+      .icon2{
+         height: 70px;
+         width: 70px;
+      }
+      .icontext{
+        font-size: 35px;
+      }
+      .text{
+        font-size: 30px;
+        font-weight:bolder;
+      }
+  }
+  
+  .story-text{
+    font-size: 30px;
+    font-family: 'Amatic SC';
+    font-weight: bold;
+  }
+  .story-texth1{
+    font-size: 45px;
+    font-family: 'Amatic SC';
+     font-weight: bold;
+  }
+  
+     .btn{
+       background: rgb(207, 52, 52);
+       color: white;
+       font-family: 'Amatic SC';
+       font-size: 25px;
+     }
+     .btn:hover{
+       opacity: 2;
+       color: black;
+     }

@@ -1,0 +1,53 @@
+.contact{
+    background-color: rgb(211, 161, 161,0.7);
+     color: white;
+     font-family: 'Amatic SC';
+     font-weight: bolder;
+ }
+
+ .contact h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+ }
+ hr{
+    width:75%;
+    border: 0.5px solid;
+ }
+
+  .contact h2{
+     font-weight:bolder;
+ }
+
+ .contact h4{
+     font-weight: bold;
+     letter-spacing: 0.5px;
+     font-size: 30px;
+ }
+
+ .price{
+    font-size: 30px;
+    font-weight: bolder
+ }
+ .price .fas{
+     font-size: 20px;
+ }
+ 
+ .first{
+    margin-right: 70px;
+    padding-left: 10px;
+    border-block-end: 2px white solid;
+ }
+
+ 
+@media (min-width: 300px) and (max-width:639px) {
+   .first{
+      margin-right: 0px;
+   }
+}
+
+@media (min-width: 640px) and (max-width:1023px) {
+   .first{
+      margin-right: 50px;
+   }
+}

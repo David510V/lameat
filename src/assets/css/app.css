@@ -1,0 +1,29 @@
+
+#videoBg{
+    margin-top: 2px;
+    position: fixed;
+    z-index: -1;
+  }
+  @media (min-aspect-ratio: 16/9) {
+      #videoBg {
+          width:100%;
+          height: auto;
+      }
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+      #videoBg { 
+          width:auto;
+          height: 100%;
+      }
+  }
+  
+  @media (max-width: 767px) {
+      #videoBG {
+          display: none;
+      }
+      body {
+          background: url('../../../public/img/poster.jpg');
+          background-size: cover;
+      }
+  }
