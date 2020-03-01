@@ -9,7 +9,7 @@ dotenv.config()
  
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyC3kbhmb7WaXmwL4Do1B5XgDR6LOCWVHJo',
+    key: process.env.VUE_APP_API_MAPS,
     libraries: 'places',
   },
 })

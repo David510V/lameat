@@ -1,19 +1,19 @@
-.contact{
-    background-color: rgb(211, 161, 161,0.7);
-     color: white;
-     font-family: 'Amatic SC';
- }
+.contact {
+  background-color: rgba(211, 161, 161, 0.702);
+  color: white;
+  font-family: 'Amatic SC';
+}
 
- .contact h1{
-    text-align: center;
- }
- 
- .contact p{
-     font-size: 35px;
-     font-weight: bolder;
- }
+.contact h1 {
+  text-align: center;
+}
 
- hr{
-    width:75%;
-    border: 0.5px solid;
- }
+.contact p {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+hr {
+  width: 75%;
+  border: 0.5px solid;
+}

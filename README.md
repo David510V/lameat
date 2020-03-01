@@ -1,19 +1,17 @@
 # lameat
 
-## Project setup
+## Project Description
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+Frontend development for a chef restaurant specializing in meat dishes
 ```
 
-### Compiles and minifies for production
+### What we have used? 
 ```
-npm run build
+Vue CLI 3, Vue-router, firebase, webpack, Bootstrap, Jquery, HTML/CSS/JS. 
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Is this online?
+```
+Yep, here is the mock site: http://lameat.s3-website.eu-west-2.amazonaws.com/
+```
+

@@ -5,13 +5,13 @@
       <hr>
        <div class="container">
           <div class="col-12 text-center">
-              <p class="story-text mt-3">
+              <p class="story-text mt-3 mb-4">
                  מימי א'-ה' (ימי חול בלבד) בין השעות 12:00-19:00.
                  עסקית הכוללת: מנה ראשונה לבחירה + מנה עיקרית + תוספת לבחירה:
-                 פירה תפוחי אדמה/בטטות, צ'יפס, סלט + שתיה/שליש בירה. 
-                 במחיר: מנה עיקרית <i class="fas fa-shekel-sign"></i>.
+                 פירה תפוחי אדמה/בטטות, צ'יפס, סלט + שתיה/שליש בירה
+                <br> במחיר: מנה עיקרית <i class="fas fa-shekel-sign"></i>.
               </p>
-              <br><br>
+              <br><br><br>
             </div>
             
          </div>

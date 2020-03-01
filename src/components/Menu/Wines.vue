@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style scoped>
-   @import '../../../src/assets/css/menuCatg.css';
+   @import '../../../src/assets/css/wines.css';
     .price{
     font-size: 30px;
     font-weight: bolder
