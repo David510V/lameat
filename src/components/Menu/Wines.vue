@@ -5,7 +5,7 @@
       <hr class="hr">
        <div class="container">
          <div class="row" >
-             <div class="col-sm-5 col-12 mt-1 mb-3  d-mr-0 first" v-for="(first,index) in wines">
+             <div class="col-sm-5 col-12 mt-1 mb-3  d-mr-0 first" v-for="(first,index) in wines" :key="first">
                  <h2>{{wines[index].title}} </h2>
                  <h4>כוס<span class="price float-right"> {{wines[index].price1}} <i class="fas fa-shekel-sign"></i></span></h4>
                  <br>

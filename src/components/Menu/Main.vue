@@ -5,7 +5,7 @@
       <hr class="hr">
        <div class="container">
          <div class="row" >
-            <div class="col-sm-5 col-12 mt-1 mb-3  d-mr-0 first" v-for="(item,index) in steaks" >
+            <div class="col-sm-5 col-12 mt-1 mb-3  d-mr-0 first" v-for="(item,index) in steaks" :key="item" >
                  <h2>{{item.title}} </h2>
                  <h4>200 גרם<span class="price float-right"> {{item.price1}} <i class="fas fa-shekel-sign"></i></span></h4>
                  <br>
@@ -13,7 +13,7 @@
                  <br>
              </div>
 
-             <div class="col-sm-5 col-12 mt-1 mb-3  d-mr-0 first" v-for="(first,index) in main">
+             <div class="col-sm-5 col-12 mt-1 mb-3  d-mr-0 first" v-for="(first,index) in main" :key="first">
                  <h2>{{first.title}} <span class="price float-right"> {{first.price}} <i class="fas fa-shekel-sign"></i></span></h2>
                  <h4>{{first.desc}}</h4>
                  <br><br>

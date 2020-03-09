@@ -5,7 +5,7 @@
       <hr class="hr">
        <div class="container">
          <div class="row" >
-             <div class="col-sm-5 col-12 mt-1 mb-3  d-mr-0 first" v-for="(first,index) in salads">
+             <div class="col-sm-5 col-12 mt-1 mb-3  d-mr-0 first" v-for="(first,index) in salads" :key="first">
                  <h2>{{salads[index].title}} <span class="price float-right"> {{salads[index].price}} <i class="fas fa-shekel-sign"></i></span></h2>
                  <h4>{{salads[index].desc}}</h4>
                  <br><br>
