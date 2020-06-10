@@ -1,8 +1,8 @@
 <template>
     <div>
         <video id="videoBg" poster="../public/img/poster.jpg" autoplay muted loop>
-      <source src="../public/img/steak.mp4" type="video/mp4">
-   </video>
+         <source src="../public/img/steak.mp4" type="video/mp4">
+         </video>
        <appheader></appheader>
                 <transition 
                 enter-active-class="animated slideInRight delay-0"

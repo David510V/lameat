@@ -1,8 +1,8 @@
 
 .head{
-    color: rgb(133, 14, 14);
+    color: rgb(245, 61, 61);
     font-family: 'Amatic SC';
-    font-weight: 600;
+    font-weight: 800;
     font-size: 70px;
   }
   .main{
@@ -33,6 +33,7 @@
     font-weight:bolder;
     font-size: 30px;
     font-family: 'Amatic SC';
+    letter-spacing: 0.8px;
     
   }
   
@@ -54,8 +55,13 @@
         font-size: 20px;
       }
       .text{
-        font-size: 15px;
-        font-weight:bolder;
+        font-size: 12px;
+        font-weight:bold;
+      }
+
+
+      .story-texth1{
+        margin-top: 15px;
       }
   }
   @media (width: 768px) {

@@ -6,13 +6,13 @@
          
             <span class="navbar-brand mt-lg-3 mb-5 d-xs-mt-0 fixed-top">
             <router-link class="home" active-class="active"  to="/" exact>
-               <a class="nav-link " href="#"><i class="fas fa-utensils"></i> LaMeat</a>
+               <a class="nav-link lameat " href="#"><i class="fas fa-utensils"></i> LaMeat</a>
             </router-link>
                </span>
          
 
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon mt-2">  <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
+            <span class="navbar-toggler-icon mt-2 mr-4">  <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
          </button>
          
             <div class="collapse navbar-collapse right" id="navbarNav">

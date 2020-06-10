@@ -42,7 +42,7 @@
           </li>
           <li>
             <p>
-              <li class="fas fa-mobile-alt mr-3"></li><a href="">054-794-5499</a>
+              <li class="fas fa-mobile-alt mr-3"></li><a href="">050-378-7887</a>
               </p>
           </li>
           <li>
@@ -52,7 +52,7 @@
           </li>
           <li>
             <p>
-               <li class="fas fa-envelope-open mr-3"></li><a href="https://www.gmail.com">rt56223@gmail.com</a>
+               <li class="fas fa-envelope-open mr-3"></li><a href="https://www.gmail.com">oriyn208637@gmail.com</a>
               </p>
           </li>
         </ul>
@@ -90,7 +90,7 @@
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class=" text-center py-3">© DaviDev
+  <div class=" text-center py-3">© DEVinter
   </div>
   <!-- Copyright -->
 
