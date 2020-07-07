@@ -12,6 +12,6 @@ Vue CLI 3, Vue-router, firebase, webpack, Bootstrap, Jquery, HTML/CSS/JS.
 
 ### Is this online?
 ```
-Yep, here is the mock site: http://lameat.s3-website.eu-west-2.amazonaws.com/
+Yep, here is the mock site: http://thelameat.com/
 ```
 
