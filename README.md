@@ -14,7 +14,7 @@ Frontend development for a chef restaurant specializing in meat dishes
 * Bootstrap 4.
 * Vue CLI 3 
 * Webpack Bundling.
-
+* Firebase
 
 ### Is this online?
 
