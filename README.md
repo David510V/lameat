@@ -7,7 +7,14 @@ Frontend development for a chef restaurant specializing in meat dishes
 
 ### What we have used? 
 
-Vue CLI 3, Vue-router, firebase, webpack, Bootstrap, Jquery, HTML/CSS/JS. 
+#### On the frontend we have:
+* HTML/CSS/JS.
+* Jquery.
+* Scss.
+* Bootstrap 4.
+* Vue CLI 3 
+* Webpack Building.
+
 
 ### Is this online?
 
