@@ -1,4 +1,4 @@
-# lameat
+# LaMeat
 
 ## Project Description
 
