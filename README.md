@@ -13,7 +13,7 @@ Frontend development for a chef restaurant specializing in meat dishes
 * Scss.
 * Bootstrap 4.
 * Vue CLI 3 
-* Webpack Building.
+* Webpack Bundling.
 
 
 ### Is this online?
