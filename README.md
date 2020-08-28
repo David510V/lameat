@@ -18,6 +18,6 @@ Frontend development for a chef restaurant specializing in meat dishes
 
 ### Is this online?
 
-Yep, here is the mock site: http://thelameat.com/
+Yep, here is the [site](http://thelameat.com/)
 
 
